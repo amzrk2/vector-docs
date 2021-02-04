@@ -4,7 +4,7 @@
 
 ## Local Development
 
-```console
+```sh
 npm i
 npm run dev
 ```
@@ -13,7 +13,7 @@ This command starts a local development server. Most changes are reflected live 
 
 ## Build
 
-```console
+```sh
 npm run build
 ```
 

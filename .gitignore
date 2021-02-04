@@ -1,9 +1,6 @@
-# production
-/build
-
-# generated files
-.docusaurus
-.cache-loader
+# docusaurus cache
+.docusaurus/
+.cache-loader/
 
 # env
 .env.local
@@ -13,6 +10,7 @@
 
 # output
 dist/
+build/
 
 # logs
 logs
