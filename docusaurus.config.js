@@ -12,11 +12,25 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
 
   themeConfig: {
+    announcementBar: {
+      id: 'alert-wip',
+      content: 'NOTE THAT THIS PROJECT IS STILL IN EARLY DEVELOPMENT STATE',
+      backgroundColor: '#eeeeee',
+      textColor: '#000000',
+    },
+    colorMode: {
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: ' ',
+        lightIcon: ' ',
+      },
+    },
+    image: 'opengraph.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Vector Analytics',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Vector Logo',
+        src: 'vector.svg',
       },
       items: [
         {
@@ -25,17 +39,16 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/amzrk2/vector-analytics',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
-      copyright: `Copyright © 2020-${new Date().getFullYear()} DSRKafuU Built with Docusaurus`,
+      style: 'light',
+      copyright: `Copyright © 2020-${new Date().getFullYear()} <a href="https://amzrk2.cc" target="_blank" rel="noopener noreferrer">DSRKafuU</a>`,
     },
   },
 
@@ -45,13 +58,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/amzrk2/vector-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
