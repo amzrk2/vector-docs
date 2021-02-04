@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import VectorIcon from '../../static/vector.svg';
 
 const features = [
   {
@@ -62,7 +63,7 @@ function Home() {
     <Layout description="Minimal alternative to Google Analytics">
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <img className={styles.heroImage} src={useBaseUrl('vector.svg')} />
+          <VectorIcon className={styles.heroImage} />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttonWrapper}>

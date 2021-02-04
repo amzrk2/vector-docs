@@ -1,4 +1,42 @@
-/* Infima variables */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Inter Light'),
+    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-light.woff2')
+      format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter Regular'),
+    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-regular.woff2')
+      format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Inter Medium'),
+    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-medium.woff2')
+      format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Inter Semi Bold'),
+    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-semibold.woff2')
+      format('woff2');
+}
+
+/* infima variables */
+
 :root {
   --ifm-color-primary: #8aa2d3;
   --ifm-color-primary-dark: #7c97ce;
@@ -8,13 +46,25 @@
   --ifm-color-primary-lighter: #a7b9de;
   --ifm-color-primary-lightest: #b5c4e3;
   --ifm-color-info: #8b81c3;
-  --ifm-color-info-dark: rgb(33, 175, 144);
-  --ifm-color-info-darker: rgb(31, 165, 136);
-  --ifm-color-info-darkest: rgb(26, 136, 112);
-  --ifm-color-info-light: rgb(70, 203, 174);
-  --ifm-color-info-lighter: rgb(102, 212, 189);
-  --ifm-color-info-lightest: rgb(146, 224, 208);
+  --ifm-color-info-dark: #7f74bd;
+  --ifm-color-info-darker: #7366b6;
+  --ifm-color-info-darkest: #6659b0;
+  --ifm-color-info-light: #978ec9;
+  --ifm-color-info-lighter: #a39cd0;
+  --ifm-color-info-lightest: #b0a9d6;
+
   --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ifm-font-family-monospace: 'Fira Code', monospace;
+  --ifm-font-weight-bold: 600;
+}
+
+/* custom */
+
+strong,
+b {
+  font-weight: 600;
 }
 
 .docusaurus-highlight-code-line {
