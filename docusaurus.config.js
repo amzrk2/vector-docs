@@ -52,6 +52,10 @@ module.exports = {
       style: 'light',
       copyright: `Copyright © 2020-${new Date().getFullYear()} <a href="https://amzrk2.cc" target="_blank" rel="noopener noreferrer">DSRKafuU</a>`,
     },
+    gtag: {
+      trackingID: trackingID || 'G-0000000000',
+      anonymizeIP: false,
+    },
   },
 
   presets: [
@@ -64,10 +68,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        gtag: {
-          trackingID: trackingID || 'G-0000000000',
-          anonymizeIP: false,
         },
       },
     ],
