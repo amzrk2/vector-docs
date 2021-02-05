@@ -1,3 +1,5 @@
+const trackingID = process.env.ENV_GA;
+
 module.exports = {
   title: 'Vector Analytics',
   tagline: 'Minimal alternative to Google Analytics',
@@ -62,6 +64,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: trackingID || 'G-0000000000',
+          anonymizeIP: false,
         },
       },
     ],
