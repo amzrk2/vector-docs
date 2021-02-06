@@ -16,7 +16,7 @@ module.exports = {
   themeConfig: {
     announcementBar: {
       id: 'alert-wip',
-      content: 'NOTE THAT THIS PROJECT IS STILL IN EARLY DEVELOPMENT STATE',
+      content: 'PROJECT STILL IN EARLY DEV STAGE',
       backgroundColor: '#eeeeee',
       textColor: '#000000',
     },
