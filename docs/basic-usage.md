@@ -39,6 +39,4 @@ Copy the code and insert it into the `<head>` section of your website.
 
 ## Done
 
-When enough data has been collected, the dashboard will display all the content:
-
-<img alt="Dashboard" src={useBaseUrl('img/dashboard.jpg')} />
+When enough data has been collected, the dashboard will display all the statistics.
