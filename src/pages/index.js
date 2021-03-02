@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import VectorIcon from '../../static/vector.svg';
+import Icon from '../../static/aofuji.svg';
 
 const features = [
   {
@@ -31,7 +31,7 @@ function Feature({ title, description }) {
   return (
     <div className={clsx('col col--4', styles.feature)}>
       <h3>{title}</h3>
-      <p>{description}</p>
+      {description}
     </div>
   );
 }
@@ -44,17 +44,14 @@ function Home() {
     <Layout description="Minimal alternative to Google Analytics">
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <VectorIcon className={styles.heroImage} />
+          <Icon className={styles.heroImage} />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttonWrapper}>
             <Link className="button button--primary button--lg" to={useBaseUrl('docs/')}>
               Get Started
             </Link>
-            <Link
-              className="button button--primary button--lg"
-              to="https://analytics.appvector.icu"
-            >
+            <Link className="button button--primary button--lg" to="https://demo.aofuji.ink">
               Online Demo
             </Link>
           </div>

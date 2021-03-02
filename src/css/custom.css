@@ -4,7 +4,7 @@
   font-weight: 300;
   font-display: swap;
   src: local('Inter Light'),
-    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-light.woff2')
+    url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn@1.1/fonts/inter/inter-light.woff2')
       format('woff2');
 }
 @font-face {
@@ -13,7 +13,7 @@
   font-weight: 400;
   font-display: swap;
   src: local('Inter Regular'),
-    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-regular.woff2')
+    url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn@1.1/fonts/inter/inter-regular.woff2')
       format('woff2');
 }
 @font-face {
@@ -22,7 +22,7 @@
   font-weight: 500;
   font-display: swap;
   src: local('Inter Medium'),
-    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-medium.woff2')
+    url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn@1.1/fonts/inter/inter-medium.woff2')
       format('woff2');
 }
 @font-face {
@@ -31,7 +31,7 @@
   font-weight: 600;
   font-display: swap;
   src: local('Inter Semi Bold'),
-    url('https://cdn.jsdelivr.net/gh/amzrk2/dsr-cdn@1.0/fonts/inter/inter-semibold.woff2')
+    url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn@1.1/fonts/inter/inter-semibold.woff2')
       format('woff2');
 }
 

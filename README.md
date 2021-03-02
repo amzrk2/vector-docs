@@ -1,6 +1,6 @@
-# Vector Docs
+# Aofuji Docs
 
-Documentation for Vector Analytics built with [Docusaurus 2](https://v2.docusaurus.io).
+Documentation for Aofuji Analytics built with [Docusaurus 2](https://v2.docusaurus.io).
 
 ## Local Development
 
@@ -18,3 +18,9 @@ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## License
+
+This project is released under `Apache License 2.0`, for more information read the [LICENSE](https://github.com/dsrkafuu/vector-analytics/blob/main/LICENSE).
+
+**Copyright © 2020-present DSRKafuU (https://dsrkafuu.su)**

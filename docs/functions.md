@@ -3,20 +3,20 @@ id: functions
 title: Functions
 ---
 
-### `vecView`
+### `aoView`
 
 - `@param {string} path` Pathname of this view
 - `@param {string} ref` Referer of this view
 
 Send a page view.
 
-### `vecLeave`
+### `aoLeave`
 
 - `@param {string} path` Pathname of this view
 
 Send a page leave.
 
-### `vecEvent`
+### `aoEvent`
 
 - `@param {string} path` Pathname of this event
 - `@param {string} name` Event name

@@ -9,6 +9,6 @@ You can generate share links to make your statistics public, just like the onlin
 
 Navigate to `Settings -> Share` then click the adding button:
 
-<img alt="Share Websites" src={useBaseUrl('img/share.jpg')} />
+<img alt="Share Websites" src={useBaseUrl('img/share.png')} />
 
 Select the website and set your expiration time, and just like getting the tracker code, you'll get a link which is public to everyone.

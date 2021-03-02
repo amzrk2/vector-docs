@@ -1,14 +1,14 @@
 const trackingID = process.env.ENV_GA;
 
 module.exports = {
-  title: 'Vector Analytics',
+  title: 'Aofuji Analytics',
   tagline: 'Minimal alternative to Google Analytics',
-  url: 'https://appvector.icu',
+  url: 'https://aofuji.ink',
   baseUrl: '/',
   favicon: 'favicon.ico',
 
-  organizationName: 'amzrk2',
-  projectName: 'vector-docs',
+  organizationName: 'dsrkafuu',
+  projectName: 'aofuji-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,10 +30,10 @@ module.exports = {
     },
     image: 'opengraph.jpg',
     navbar: {
-      title: 'Vector Analytics',
+      title: 'Aofuji Analytics',
       logo: {
-        alt: 'Vector Logo',
-        src: 'vector.svg',
+        alt: 'Aofuji Logo',
+        src: 'aofuji.svg',
       },
       items: [
         {
@@ -43,7 +43,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/amzrk2/vector-analytics',
+          href: 'https://github.com/dsrkafuu/aofuji-analytics',
           label: 'GitHub',
           position: 'right',
         },
@@ -51,7 +51,7 @@ module.exports = {
     },
     footer: {
       style: 'light',
-      copyright: `Copyright © 2020-${new Date().getFullYear()} <a href="https://amzrk2.cc" target="_blank" rel="noopener noreferrer">DSRKafuU</a>`,
+      copyright: `Copyright © 2020-${new Date().getFullYear()} <a href="https://dsrkafuu.su" target="_blank" rel="noopener noreferrer">DSRKafuU</a>`,
     },
     gtag: {
       trackingID: trackingID || 'G-0000000000',
@@ -65,7 +65,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/amzrk2/vector-docs/edit/main/',
+          editUrl: 'https://github.com/dsrkafuu/aofuji-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

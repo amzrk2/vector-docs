@@ -34,12 +34,12 @@ methods
 
 ### SCSS Scopes
 
-All basic components in `@/components` should not use scoped styles, styles of those needs to be named like `v-component-ctx`.
+All basic components in `@/components` should not use scoped styles, styles of those needs to be named like `a-component-ctx`.
 
 Alternatively, all view components in `@/views` should use scoped styles.
 
 ## License
 
-This project is released under `Apache License 2.0`, for more information read the [LICENSE](https://github.com/dsrkafuu/vector-analytics/blob/main/LICENSE).
+This project is released under `MIT License`, for more information read the [LICENSE](https://github.com/dsrkafuu/aofuji-analytics/blob/main/LICENSE).
 
 Copyright © 2020-present DSRKafuU (<https://dsrkafuu.su>)

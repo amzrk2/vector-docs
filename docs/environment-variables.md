@@ -25,13 +25,13 @@ Application server port for exposing directly to the public network or providing
 
 ### `VUE_APP_TITLE`
 
-> Example: `Vector Analytics`
+> Example: `Aofuji Analytics`
 
 Custom application title.
 
 ### `VUE_APP_TRACKER_FILENAME`
 
-> Example: `vector.min.js`
+> Example: `aofuji.min.js`
 
 Custom tracker file output name, used in `npm run build`.
 

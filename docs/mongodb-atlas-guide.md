@@ -11,7 +11,7 @@ Go to [MongoDB Altas](https://www.mongodb.com/cloud/atlas) and create a free acc
 
 Then follow the introduction and create your own cluster:
 
-<img alt="MongoDB Altas Create" src={useBaseUrl('img/atlas.jpg')} />
+<img alt="MongoDB Altas Create" src={useBaseUrl('img/atlas-create.png')} />
 
 :::note
 Select a region that is close to your server/function region will improve the response time of the application.
@@ -21,13 +21,13 @@ Select a region that is close to your server/function region will improve the re
 
 Navigate to `Network Access` and add your server ip or serverless function source ip to IP Access List:
 
-<img alt="MongoDB Altas Network Access" src={useBaseUrl('img/atlas-access.jpg')} />
+<img alt="MongoDB Altas Network Access" src={useBaseUrl('img/atlas-network.png')} />
 
 ## Setup User
 
 Navigate to `Database Access` and add a new user, grant specific privileges for the user:
 
-<img alt="MongoDB Altas Database Access" src={useBaseUrl('img/atlas-user.jpg')} />
+<img alt="MongoDB Altas Database Access" src={useBaseUrl('img/atlas-user.png')} />
 
 ## Get the Connecting String
 

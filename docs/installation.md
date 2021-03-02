@@ -6,8 +6,8 @@ title: Installation
 ## Get Source
 
 ```sh
-git clone https://github.com/dsrkafuu/vector-analytics.git
-cd vector-analytics
+git clone https://github.com/dsrkafuu/aofuji-analytics.git
+cd aofuji-analytics
 ```
 
 Checkout the latest release after cloned:
@@ -17,7 +17,7 @@ git checkout v0.1.0
 ```
 
 :::note
-You can get the latest release tag at [release page](https://github.com/dsrkafuu/vector-analytics/releases).
+You can get the latest release tag at [release page](https://github.com/dsrkafuu/aofuji-analytics/releases).
 :::
 
 ## Setup Environment Variables
