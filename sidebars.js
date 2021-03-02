@@ -7,6 +7,7 @@ module.exports = {
       'basic-usage',
       'share-websites',
       'track-events',
+      'update-application',
     ],
     Reference: ['functions', 'environment-variables'],
     'Advanced Guides': ['mongodb-atlas-guide', 'serverless-guide', 'requirements-guide'],

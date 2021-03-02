@@ -1,6 +1,6 @@
 # Vector Docs
 
-\[WIP\] Documentation site for Vector Analytics built with [Docusaurus 2](https://v2.docusaurus.io).
+Documentation for Vector Analytics built with [Docusaurus 2](https://v2.docusaurus.io).
 
 ## Local Development
 

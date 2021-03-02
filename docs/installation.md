@@ -35,7 +35,7 @@ Check out the [Environment Variables](environment-variables) for more optional v
 ## Install Deps and Build
 
 ```sh
-npm install
+npm ci
 npm run build
 ```
 
