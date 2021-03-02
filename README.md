@@ -21,6 +21,6 @@ This command generates static content into the `build` directory and can be serv
 
 ## License
 
-This project is released under `Apache License 2.0`, for more information read the [LICENSE](https://github.com/dsrkafuu/vector-analytics/blob/main/LICENSE).
+This project is released under `Apache License 2.0`, for more information read the [LICENSE](https://github.com/dsrkafuu/aofuji-analytics/blob/main/LICENSE).
 
 **Copyright © 2020-present DSRKafuU (https://dsrkafuu.su)**
