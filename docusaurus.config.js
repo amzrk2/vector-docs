@@ -15,8 +15,9 @@ module.exports = {
 
   themeConfig: {
     announcementBar: {
-      id: 'alert-wip',
-      content: 'PROJECT STILL IN EARLY DEV STAGE',
+      id: 'alert-semver',
+      content:
+        'This project does not use semantic versioning until v1 is officially released, so please check the changelog carefully before each upgrade to see if it is still working properly.',
       backgroundColor: '#eeeeee',
       textColor: '#000000',
     },

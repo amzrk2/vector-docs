@@ -1,6 +1,14 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    About: ['introduction', 'contribute'],
+    'Getting Started': [
+      'requirements',
+      'installation',
+      'basic-usage',
+      'share-websites',
+      'track-events',
+    ],
+    Reference: ['functions', 'environment-variables'],
+    'Advanced Guides': ['mongodb-atlas-guide', 'serverless-guide', 'requirements-guide'],
   },
 };

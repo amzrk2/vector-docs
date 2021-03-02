@@ -11,7 +11,7 @@ const features = [
   {
     title: 'Minimal Analytics',
     description: (
-      <p>Focuses exclusively on page views, user location/device and JavaScript events.</p>
+      <p>Focuses exclusively on page views and device info with ~1KB gzipped tracker.</p>
     ),
   },
   {
