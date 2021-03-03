@@ -51,7 +51,10 @@ function Home() {
             <Link className="button button--primary button--lg" to={useBaseUrl('docs/')}>
               Get Started
             </Link>
-            <Link className="button button--primary button--lg" to="https://demo.aofuji.ink">
+            <Link
+              className="button button--primary button--lg"
+              to="https://demo.aofuji.ink/share?id=603e18b2ac3d962d3c06e8db"
+            >
               Online Demo
             </Link>
           </div>
