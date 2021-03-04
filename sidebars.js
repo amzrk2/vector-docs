@@ -5,6 +5,7 @@ module.exports = {
       'requirements',
       'installation',
       'basic-usage',
+      'use-in-spa',
       'share-websites',
       'track-events',
       'update-application',
