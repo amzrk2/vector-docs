@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Minimal alternative to Google Analytics based on Vue.js and MongoDB.
 
-<img alt="Dashboard Preview" src={useBaseUrl('img/dashboard.png')} />
+<img alt="Dashboard Preview" src={useBaseUrl('img/share-dashboard.png')} />
 
 ## About the Project
 
