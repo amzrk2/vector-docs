@@ -23,6 +23,12 @@
   gap: 1rem;
 }
 
+@media screen and (max-width: 540px) {
+  .buttonWrapper {
+    flex-direction: column;
+  }
+}
+
 .featureWrapper {
   display: flex;
   align-items: center;
