@@ -1,6 +1,6 @@
 {
   "name": "aofuji-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Documentation site for Aofuji Analytics.",
   "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.su)",
@@ -28,11 +28,11 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
