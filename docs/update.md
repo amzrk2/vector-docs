@@ -7,7 +7,7 @@ title: Update Application
 
 ```sh
 git fetch
-git checkout v0.1.1 # latest tags will show in terminal when fetch
+git checkout v0.1.3 # latest tags will show in terminal when fetch
 ```
 
 ## Update Deps and Build

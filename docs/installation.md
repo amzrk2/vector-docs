@@ -13,7 +13,7 @@ cd aofuji-analytics
 Checkout the latest release after cloned:
 
 ```sh
-git checkout v0.1.0
+git checkout v0.1.3
 ```
 
 :::note
