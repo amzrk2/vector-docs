@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Init and Login
 
-The username and password used for the first time login will be initialized as the administrator user (which can be changed later). So far (`v0.1.3`) it is not possible to retrieve a forgotten password, so please make sure to remember it.
+The username and password used for the first time login will be initialized as the administrator user (which can be changed later). So far (`v0.1.4`) it is not possible to retrieve a forgotten password, so please make sure to remember it.
 
 <img alt="Login Page" src={useBaseUrl('img/login.png')} />
 

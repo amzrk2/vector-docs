@@ -13,7 +13,7 @@ cd aofuji-analytics
 Checkout the latest release after cloned:
 
 ```sh
-git checkout v0.1.3
+git checkout v0.1.4
 ```
 
 :::note
@@ -22,10 +22,10 @@ You can get the latest release tag at [release page](https://github.com/dsrkafuu
 
 ## Setup Environment Variables
 
-Create a `.env.production` file and set the only required environment variable `DATABASE_URL`. If you're using a locally installed MongoDB server, your setup looks like this:
+Create a `.env.production` file and set the only required environment variable `NODE_DATABASE_URL`. If you're using a locally installed MongoDB server, your setup looks like this:
 
 ```sh
-echo "DATABASE_URL=mongodb://username:password@localhost:27017/dbname" > .env.production
+echo "NODE_DATABASE_URL=mongodb://username:password@localhost:27017/dbname" > .env.production
 ```
 
 :::note
