@@ -11,6 +11,15 @@ This is a patch release which upgrades vue cli and some other packages.
 
 2021-05-25
 
+### Breaking Changes
+
+Environment variables renamed:
+
+- `DATABASE_URL` => `NODE_DATABASE_URL`
+- `MAXMIND_LICENSE_KEY` => `NODE_MAXMIND_LICENSE`
+- `SERVER_PORT` => `NODE_SERVER_PORT`
+- `VUE_APP_TRACKER_FILENAME` => `VUE_APP_TRACKER_FILE`
+
 ### Changelog
 
 - feat: upgrade vue cli and dev packages
